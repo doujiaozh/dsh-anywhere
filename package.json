@@ -1,0 +1,42 @@
+{
+  "name": "dsh-anywhere",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Anywhere: a zero-native, cross-platform WASM execution framework — break the chains of the OS.",
+  "license": "MIT",
+  "author": "DeepSeek Harness Agent",
+  "homepage": "https://github.com/dsh-anything/dsh-anywhere",
+  "workspaces": [
+    "packages/*"
+  ],
+  "bin": {
+    "anywhere": "packages/aw_cli/bin/anywhere.js"
+  },
+  "scripts": {
+    "build": "tsc -b",
+    "build:force": "tsc -b --force",
+    "clean": "node scripts/clean.js",
+    "dev": "tsc -b --watch",
+    "anywhere": "node packages/aw_cli/bin/anywhere.js",
+    "test": "node scripts/smoke.js",
+    "prepublishOnly": "npm run build"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "keywords": [
+    "wasm",
+    "webassembly",
+    "ffmpeg",
+    "pyodide",
+    "onnx",
+    "edge-ai",
+    "cross-platform",
+    "wasi",
+    "emscripten"
+  ],
+  "devDependencies": {
+    "@types/node": "^18.19.0",
+    "typescript": "^5.4.0"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "@anywhere/ffmpeg",
+  "version": "0.1.0",
+  "description": "Anywhere FFmpeg: zero-native video/audio transcoding powered by ffmpeg.wasm.",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc -b",
+    "clean": "node ../../scripts/clean.js dist"
+  },
+  "dependencies": {
+    "@anywhere/core": "^0.1.0"
+  }
+}

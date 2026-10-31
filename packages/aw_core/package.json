@@ -1,0 +1,19 @@
+{
+  "name": "@anywhere/core",
+  "version": "0.1.0",
+  "description": "Anywhere core: universal WASM loader (Emscripten + WASI) with a bidirectional JSON-RPC bus.",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc -b",
+    "clean": "node ../../scripts/clean.js dist"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

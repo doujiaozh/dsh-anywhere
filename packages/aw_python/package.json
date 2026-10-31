@@ -1,0 +1,19 @@
+{
+  "name": "@anywhere/python",
+  "version": "0.1.0",
+  "description": "Anywhere Python: a Pyodide edge runtime — numpy & pandas on any host, zero native build.",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc -b",
+    "clean": "node ../../scripts/clean.js dist"
+  },
+  "dependencies": {
+    "@anywhere/core": "^0.1.0"
+  }
+}

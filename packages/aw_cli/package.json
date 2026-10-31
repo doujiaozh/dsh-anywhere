@@ -1,0 +1,25 @@
+{
+  "name": "@anywhere/cli",
+  "description": "Anywhere CLI: `anywhere run ffmpeg|python|llm` — one binary, every OS, zero native builds.",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "anywhere": "bin/anywhere.js"
+  },
+  "files": [
+    "bin",
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc -b"
+  },
+  "dependencies": {
+    "@anywhere/core": "^0.1.0",
+    "@anywhere/ffmpeg": "^0.1.0",
+    "@anywhere/python": "^0.1.0",
+    "@anywhere/edge-llm": "^0.1.0"
+  }
+}

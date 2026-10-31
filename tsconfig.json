@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "es2019",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "lib": ["es2019", "dom", "es2020.bigint"],
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "noImplicitAny": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "stripInternal": true,
+    "incremental": true
+  },
+  "files": [],
+  "references": [
+    { "path": "packages/aw_core" },
+    { "path": "packages/aw_ffmpeg" },
+    { "path": "packages/aw_python" },
+    { "path": "packages/aw_edge_llm" },
+    { "path": "packages/aw_cli" }
+  ]
+}

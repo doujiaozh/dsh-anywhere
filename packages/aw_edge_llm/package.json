@@ -1,0 +1,19 @@
+{
+  "name": "@anywhere/edge-llm",
+  "description": "Anywhere Edge LLM: ONNX Runtime Web inference for tiny models on GPU-less hosts.",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc -b",
+    "clean": "node ../../scripts/clean.js dist"
+  },
+  "dependencies": {
+    "@anywhere/core": "^0.1.0"
+  }
+}
