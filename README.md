@@ -149,3 +149,7 @@ MIT — 见 [LICENSE](./LICENSE)。
 ---
 
 <p align="center"><em>Anywhere：打破平台的枷锁，WASM 即是未来。</em></p>
+
+## License
+
+Released under the MIT license. See LICENSE for details.

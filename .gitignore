@@ -32,3 +32,15 @@ desktop.ini
 # Test / coverage
 coverage/
 .nyc_output/
+*.tmp
+*.bak
+*.swp
+*.exe
+.env.*
+!.env.example
+*.iml
+build/
+.next/
+.npm/
+yarn-error.log
+*.tgz
